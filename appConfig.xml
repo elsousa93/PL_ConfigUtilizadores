@@ -1,0 +1,14 @@
+<appDefinition>
+   <id>PLConfiguracaoUsers</id>
+   <version></version>
+   <name>PL - Cnfiguração de Utilizadores</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+</appDefinition>
