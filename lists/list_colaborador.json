@@ -1,0 +1,66 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "colaborador"}
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "id": "column_0",
+            "label": "Cartão de Cidadão",
+            "name": "numero_cc"
+        },
+        {
+            "id": "column_1",
+            "label": "Categoria Profissional",
+            "name": "categoria_profissional"
+        },
+        {
+            "format": {
+                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
+                "properties": {
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.plugin.enterprise.UserOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "true",
+                            "cacheInterval": "",
+                            "deptId": "",
+                            "emptyLabel": "",
+                            "groupId": "",
+                            "grouping": "",
+                            "optionLabel": "fullname",
+                            "orgId": "PL",
+                            "useAjax": ""
+                        }
+                    }
+                }
+            },
+            "id": "column_2",
+            "label": "Colaborador",
+            "name": "user_colaborador"
+        },
+        {
+            "id": "column_3",
+            "label": "Cédula Estagiária",
+            "name": "cedula_estagiario"
+        },
+        {
+            "id": "column_4",
+            "label": "Cédula Profissional",
+            "name": "cedula_profissional"
+        }
+    ],
+    "filters": [],
+    "id": "list_colaborador",
+    "name": "List - Colaborador",
+    "order": "",
+    "orderBy": "",
+    "pageSize": 0,
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}
