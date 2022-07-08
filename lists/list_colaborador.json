@@ -8,6 +8,22 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "Nome Completo",
+            "name": "nome_completo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Departamento",
+            "name": "departamento",
+            "sortable": "false"
+        },
+        {
             "id": "column_0",
             "label": "Cartão de Cidadão",
             "name": "numero_cc"
@@ -16,31 +32,6 @@
             "id": "column_1",
             "label": "Categoria Profissional",
             "name": "categoria_profissional"
-        },
-        {
-            "format": {
-                "className": "org.joget.plugin.enterprise.OptionsValueFormatter",
-                "properties": {
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.plugin.enterprise.UserOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "true",
-                            "cacheInterval": "",
-                            "deptId": "",
-                            "emptyLabel": "",
-                            "groupId": "",
-                            "grouping": "",
-                            "optionLabel": "fullname",
-                            "orgId": "PL",
-                            "useAjax": ""
-                        }
-                    }
-                }
-            },
-            "id": "column_2",
-            "label": "Colaborador",
-            "name": "user_colaborador"
         },
         {
             "id": "column_3",
@@ -53,6 +44,7 @@
             "name": "cedula_profissional"
         }
     ],
+    "considerFilterWhenGetTotal": "",
     "filters": [],
     "id": "list_colaborador",
     "name": "List - Colaborador",
