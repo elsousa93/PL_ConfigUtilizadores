@@ -824,16 +824,10 @@
             "properties": {}
         },
         "postProcessor": {
-            "className": "org.joget.plugin.enterprise.FormDataUpdateTool",
-            "properties": {
-                "fields": [{
-                    "field": "departamento",
-                    "value": "#binder.informacaoColaboradores.user_colaborador#"
-                }],
-                "formDefId": "informacaoColaboradores"
-            }
+            "className": "",
+            "properties": {}
         },
-        "postProcessorRunOn": "both",
+        "postProcessorRunOn": "create",
         "storeBinder": {
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
