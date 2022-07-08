@@ -832,6 +832,6 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "tableName": "info_colaborador"
+        "tableName": "info_colaboradores"
     }
 }
