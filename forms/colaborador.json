@@ -242,11 +242,10 @@
                                 "storeNumeric": "",
                                 "style": "",
                                 "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "className": "org.joget.apps.form.lib.BeanShellValidator",
                                     "properties": {
-                                        "mandatory": "",
-                                        "message": "",
-                                        "type": ""
+                                        "decoration": "*",
+                                        "script": "*import java.util.Arrays;\nimport org.joget.apps.form.model.Element;\nimport org.joget.apps.form.model.FormData;\nimport org.joget.apps.form.service.FormUtil;\n\nString id = FormUtil.getElementParameterName(element);\nString number = \"\";\nif(values.length > 0){\n    number = values[0];\n}\n\nif(number.isEmpty()){\n    formData.addFormError(id, \"Por favor introduza o NIF\");\n    return false;\n}\n\nfinal int max=9;\n//check if is numeric and has 9 numbers\nif (!number.matches(\"[0-9]+\") || number.length()!=max){\n    formData.addFormError(id, \"NIF deve ter 9 digitos\");\n    return false;\n}\n\nint checkSum=0;\n//calculate checkSum\nfor (int i=0; i<max-1; i++){\n\tcheckSum+=(number.charAt(i)-'0')*(max-i);\n}\nint checkDigit=11-(checkSum % 11);\n//if checkDigit is higher than 9 set it to zero\nif (checkDigit>9) checkDigit=0;\n//compare checkDigit with the last number of NIF\nif (checkDigit!=number.charAt(max-1)-'0'){\n    formData.addFormError(id, \"NIF inválido\");\n    return false;\n}\nreturn true;"
                                     }
                                 },
                                 "value": "",
@@ -349,12 +348,8 @@
                                 "storeNumeric": "",
                                 "style": "",
                                 "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "mandatory": "",
-                                        "message": "",
-                                        "type": ""
-                                    }
+                                    "className": "",
+                                    "properties": {}
                                 },
                                 "value": "",
                                 "workflowVariable": ""
@@ -432,9 +427,11 @@
                                 "validator": {
                                     "className": "org.joget.apps.form.lib.DefaultValidator",
                                     "properties": {
+                                        "custom-regex": "\\d{4}-\\d{3}",
+                                        "custom-regex-casesensitive": "",
                                         "mandatory": "",
                                         "message": "",
-                                        "type": ""
+                                        "type": "custom"
                                     }
                                 },
                                 "value": "",
