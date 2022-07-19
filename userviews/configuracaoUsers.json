@@ -225,7 +225,7 @@
                 "homeUrl": "",
                 "horizontal_menu": "",
                 "inbox": "",
-                "js": "document.body.innerHTML.replace('Delete record', 'Apagar registo');",
+                "js": "document.body.innerHTML.replace('Delete record', 'Apagar registo');\n\ndocument.body.innerHTML = document.body.innerHTML.replace(/hello/g, 'hi');",
                 "loginPageBottom": "",
                 "loginPageTop": "",
                 "logo": "#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#",
