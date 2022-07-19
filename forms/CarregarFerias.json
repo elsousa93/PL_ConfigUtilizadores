@@ -10,7 +10,7 @@
                     "properties": {
                         "id": "id_ferias",
                         "useDefaultWhenEmpty": "",
-                        "value": "",
+                        "value": "0",
                         "workflowVariable": ""
                     }
                 },
