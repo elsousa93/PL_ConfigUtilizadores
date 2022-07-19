@@ -10,15 +10,6 @@
    <pluginDefaultPropertiesList/>
    <environmentVariableList/>
    <messageList/>
-   <resourceList>
-      <appResource>
-         <id>user-no-background.webp</id>
-         <appId>PLConfiguracaoUsers</appId>
-         <appVersion>1</appVersion>
-         <filesize>18310</filesize>
-         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
-         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
-      </appResource>
-   </resourceList>
+   <resourceList/>
    <license>wzOnYjhCfr39XVeHCq6xAK9/TK60lDN0jqywfI8+tYkZ/+ZcCAhs5baorErT+IlAJmYXyZeK5y0=</license>
 </appDefinition>
