@@ -2,15 +2,7 @@
     "categories": [
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.HtmlPage",
-                "properties": {
-                    "content": "<div class=\"ui-welcome\"><h1>Apps and Workflow Made Simple<\/h1><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Build apps, not just processes!<\/h3><p>Create full-fledged apps with support for data records management.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Increased Efficiency and Productivity<\/h3><p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Lowered Cost<\/h3><p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p><\/div><\/div>",
-                    "customId": "welcome",
-                    "id": "3B6F25A638EF40FFAD3C5DAAC41BA98F",
-                    "label": "Welcome"
-                }
-            }],
+            "menus": [],
             "properties": {
                 "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
                 "label": "<i class='fa fa-home'><\/i> Home"
@@ -99,15 +91,19 @@
             "className": "org.joget.plugin.enterprise.ProgressiveTheme",
             "properties": {
                 "accentColor": "BLUE",
-                "buttonColor": "ORANGE",
+                "buttonColor": "custom",
                 "buttonTextColor": "WHITE",
-                "css": "",
+                "css": "body {\n    font-family: 'Ubuntu';\n}\n\ndiv#main {\n    background: #ffffff !important;\n}\n#header-name a{\n    color: #0A6937;\n}\n\n#form-canvas > div.form-message.form-success {display: none;}\n#chat_ajax_subform_chatSubform_painel_mensagem{display: none;}\n#conversas_ajax_subform_chatConversasSubform_painel_conversas{display: none;}\n\n#chatLog{\n    height: 51vh;\n    width: 100%;\n    overflow-y: scroll;\n    background: #fbfbfb;\n    border: 2px solid #7a9fff;\n    border-radius: .5em;\n}\n\n.speech-bubble-right {\n    float: right;\n    margin-right: 9px;\n    border: 1px solid #2533ce;\n    background: #ffffff;\n}\n\n.speech-bubble-left {\n    float: left;\n    margin-left: 9px;\n    border: 1px solid #ce2727;\n    background: #ffffff;\n}\n\n#speech-content {\n    padding: 7px;\n    max-width: 280px;\n    border-radius: .7em;\n}\n\ndiv #author-title {\n    color: white;\n    font-size:14px;\n    margin-top: 2px;\n    font-style: italic;\n    font-weight: bold;\n    border-radius: .4em;\n    background-color: #ffd8d8;\n padding: 2px 8px 2px 8px;\n}\n\ndiv #message-style {\n    font-size: 15px;\n    margin-top:10px;\n    font-family: Arial;\n}\n\ndiv #message-style-me {\n    font-size: 15px;\n    font-family: Arial;\n}\n\ndiv #timestamp {\n    font-size: 10px;\n    margin-top:10px;\n}\n\n.chat {\n    float: left;\n    width: 100%;\n    margin: 5px 0;\n}",
+                "customButton": "#878786",
+                "customPrimary": "#0A6937",
+                "customPrimaryDark": "#878786",
+                "customPrimaryLight": "#FFFFFF",
                 "disableHelpGuide": "",
                 "disablePush": "",
                 "disablePwa": "",
                 "displayCategoryLabel": "",
                 "enableResponsiveSwitch": "",
-                "fav_icon": "",
+                "fav_icon": "#appResource.users_image.jpg#",
                 "fontColor": "WHITE",
                 "fontControl": "",
                 "homeAttractBanner": "",
@@ -117,9 +113,9 @@
                 "js": "",
                 "loginPageBottom": "",
                 "loginPageTop": "",
-                "logo": "",
+                "logo": "#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#",
                 "menuFontColor": "BLACK",
-                "primaryColor": "INDIGO",
+                "primaryColor": "custom",
                 "profile": "",
                 "removeAssignmentTitle": "",
                 "shortcut": [],
