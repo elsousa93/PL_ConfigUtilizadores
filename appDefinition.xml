@@ -12,6 +12,14 @@
    <messageList/>
    <resourceList>
       <appResource>
+         <id>PL_Full_Symbol_on_Green_Background-removeb.png</id>
+         <appId>PLConfiguracaoUsers</appId>
+         <appVersion>1</appVersion>
+         <filesize>39906</filesize>
+         <permissionClass>org.joget.apps.userview.lib.LoggedInUserPermission</permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;org.joget.apps.userview.lib.LoggedInUserPermission&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
          <id>users_image.jpg</id>
          <appId>PLConfiguracaoUsers</appId>
          <appVersion>1</appVersion>
