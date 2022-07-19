@@ -4,7 +4,128 @@
         "className": "org.joget.apps.form.model.Section",
         "elements": [{
             "className": "org.joget.apps.form.model.Column",
-            "elements": [],
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "nome_utilizador",
+                        "label": "Select Box",
+                        "multiple": "",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "org.joget.plugin.enterprise.UserOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "cacheInterval": "",
+                                "deptId": "",
+                                "emptyLabel": "",
+                                "groupId": "",
+                                "grouping": "",
+                                "optionLabel": "",
+                                "orgId": "PL",
+                                "useAjax": ""
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "allowManual": "",
+                        "currentDateAs": "",
+                        "dataFormat": "yyyy-MM-dd",
+                        "datePickerType": "",
+                        "endDateFieldId": "",
+                        "format": "",
+                        "id": "data_inicio_ferias",
+                        "label": "Data de início de férias",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": "",
+                        "yearRange": "c-10:c+10"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "allowManual": "",
+                        "currentDateAs": "",
+                        "dataFormat": "yyyy-MM-dd",
+                        "datePickerType": "",
+                        "endDateFieldId": "",
+                        "format": "",
+                        "id": "data_fim_ferias",
+                        "label": "Data de fim de férias",
+                        "placeholder": "",
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": "",
+                        "yearRange": "c-10:c+10"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "estado",
+                        "label": "Estado",
+                        "multiple": "",
+                        "options": [
+                            {
+                                "grouping": "",
+                                "label": "Aprovado",
+                                "value": "aprovado"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Em aprovação",
+                                "value": "em_aprovacao"
+                            },
+                            {
+                                "grouping": "",
+                                "label": "Rejeitado",
+                                "value": "rejeitado"
+                            }
+                        ],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                }
+            ],
             "properties": {"width": "100%"}
         }],
         "properties": {
