@@ -10,7 +10,7 @@
                     "properties": {
                         "controlField": "",
                         "id": "nome_utilizador",
-                        "label": "Select Box",
+                        "label": "Nome do utilizador",
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
