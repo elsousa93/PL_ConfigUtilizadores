@@ -225,7 +225,7 @@
                 "homeUrl": "",
                 "horizontal_menu": "",
                 "inbox": "",
-                "js": "document.body.innerHTML.replace('Delete record', 'Apagar registo');\ndocument.body.innerHTML = document.body.innerHTML.replace(/Delete record/g, \"Apagar registo\");",
+                "js": "document.body.innerHTML.replace('Delete record', 'Apagar registo');\ndocument.body.innerHTML = document.body.innerHTML.replace(/Delete record/g, \"Apagar registo\");\n\nfunction walkText(node) {\n  if (node.nodeType == 3) {\n    node.data = node.data.replace(/Delete record/g, \"bar\");\n  }\n  if (node.nodeType == 1 && node.nodeName != \"SCRIPT\") {\n    for (var i = 0; i < node.childNodes.length; i++) {\n      walkText(node.childNodes[i]);\n    }\n  }\n}\nwalkText(document.body);",
                 "loginPageBottom": "",
                 "loginPageTop": "",
                 "logo": "#appResource.PL_Full_Symbol_on_Green_Background-removeb.png#",
