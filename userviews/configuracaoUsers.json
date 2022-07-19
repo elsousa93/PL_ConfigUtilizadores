@@ -69,6 +69,44 @@
                 "id": "category-A325189B196A4972943360B4F2F8EFAD",
                 "label": "<i class=\"fa fa-tasks\"><\/i>Configurações de acessos"
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "actionAfterSaved": "",
+                    "actionOnCancel": "",
+                    "cancelButtonLabel": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "CarregarFeriasManualmente",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "formId": "CarregarFerias",
+                    "id": "CC374E2B0BE040229CB6670721CCB4E2",
+                    "keyName": "",
+                    "label": "Carregar Férias Manualmente",
+                    "loadDataWithKey": "",
+                    "messageShowAfterComplete": "",
+                    "paramName": "",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "redirectTargetOnCancel": "top",
+                    "redirectTargetOnComplete": "",
+                    "redirectUrlAfterComplete": "",
+                    "redirectUrlOnCancel": "",
+                    "showInPopupDialog": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "id": "category-67B77E6F42D34BCBB320F008CE533227",
+                "label": "Gestão de férias"
+            }
         }
     ],
     "className": "org.joget.apps.userview.model.Userview",
