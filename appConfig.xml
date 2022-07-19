@@ -1,7 +1,7 @@
 <appDefinition>
    <id>PLConfiguracaoUsers</id>
    <version></version>
-   <name>PL - Cnfiguração de Utilizadores</name>
+   <name>PL - Gestão de Utilizadores</name>
    <packageDefinitionList/>
    <formDefinitionList/>
    <userviewDefinitionList/>
