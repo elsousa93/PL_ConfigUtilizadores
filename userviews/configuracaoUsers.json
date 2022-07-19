@@ -85,7 +85,7 @@
         "footerMessage": "Powered by Joget",
         "id": "configuracaoUsers",
         "logoutText": "Logout",
-        "name": "Configuração de Utilizadores",
+        "name": "Gestão de Utilizadores",
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
