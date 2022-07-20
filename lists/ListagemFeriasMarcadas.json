@@ -45,7 +45,26 @@
     ],
     "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [],
+    "filters": [
+        {
+            "id": "filter_0",
+            "label": "Nome do utilizador",
+            "name": "nome_utilizador",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_1",
+            "label": "Estado",
+            "name": "estado",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        }
+    ],
     "id": "ListagemFeriasMarcadas",
     "name": "Listagem de Férias",
     "order": "",
