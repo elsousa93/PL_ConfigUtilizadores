@@ -198,8 +198,11 @@
     "setting": {"properties": {
         "hideThisUserviewInAppCenter": "",
         "permission": {
-            "className": "",
-            "properties": {}
+            "className": "org.joget.apps.userview.lib.DepartmentPermission",
+            "properties": {
+                "allowedDeptIds": "PL_INT_RH",
+                "orgId": "PL"
+            }
         },
         "tempDisablePermissionChecking": "",
         "theme": {
