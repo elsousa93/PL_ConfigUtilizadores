@@ -18,9 +18,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "id": "column_5",
-            "label": "Departamento",
-            "name": "departamento",
+            "id": "column_2",
+            "label": "Colaborador",
+            "name": "user_colaborador",
             "sortable": "false"
         },
         {
@@ -45,7 +45,106 @@
         }
     ],
     "considerFilterWhenGetTotal": "",
-    "filters": [],
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_nome_completo",
+            "hidden": "",
+            "id": "filter_4",
+            "label": "Nome Completo",
+            "name": "nome_completo",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "autocomplete",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.plugin.enterprise.UserOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "deptId": "",
+                            "emptyLabel": "",
+                            "groupId": "",
+                            "grouping": "",
+                            "optionLabel": "fullname",
+                            "orgId": "",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_user_colaborador",
+            "hidden": "",
+            "id": "filter_5",
+            "label": "Colaborador",
+            "name": "user_colaborador",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "autocomplete",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.plugin.enterprise.UserOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "deptId": "",
+                            "emptyLabel": "",
+                            "groupId": "",
+                            "grouping": "",
+                            "optionLabel": "username",
+                            "orgId": "PL",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        },
+        {
+            "id": "filter_3",
+            "label": "Cartão de Cidadão",
+            "name": "numero_cc",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_2",
+            "label": "Categoria Profissional",
+            "name": "categoria_profissional",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_1",
+            "label": "Cédula Estagiária",
+            "name": "cedula_estagiario",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_0",
+            "label": "Cédula Profissional",
+            "name": "cedula_profissional",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        }
+    ],
     "id": "list_colaborador",
     "name": "List - Colaborador",
     "order": "",
