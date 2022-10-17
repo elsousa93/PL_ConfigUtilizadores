@@ -968,7 +968,7 @@
                             "autoPopulate": "",
                             "id": "field27",
                             "label": "",
-                            "value": "<script type=\"text/javascript\">\r\n$(function(){\r\n    $(\"#submit\").val(\"GUARDAR\");\r\n    $(\"#cancel\").text(\"CANCELAR\");\r\n});\r\n\r\n\r\n$(document).ready(function(){\r\n    \r\n    $(\"div[id^=departments] input[type=checkbox]\").on('change', function(){\r\n        \r\n        \r\n        \r\n        \r\n        \r\n        \r\n        console.log(\"AAAA\" + this));\r\n        \r\n    });\r\n    \r\n    \r\n});\r\n    \r\n<\/script>"
+                            "value": "<script type=\"text/javascript\">\r\n$(function(){\r\n    $(\"#submit\").val(\"GUARDAR\");\r\n    $(\"#cancel\").text(\"CANCELAR\");\r\n});\r\n\r\n\r\n$(document).ready(function(){\r\n    \r\n    $(\"div[id^=departments] input[type=checkbox]\").each(function(){\r\n        \r\n        \r\n        \r\n        $(this).on('change', function(){\r\n            \r\n           console.log(\"aAAA\"); \r\n        });\r\n        \r\n        \r\n     \r\n        \r\n    });\r\n    \r\n    \r\n});\r\n    \r\n<\/script>"
                         }
                     }
                 ],
