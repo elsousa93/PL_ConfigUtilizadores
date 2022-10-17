@@ -892,6 +892,48 @@
                 "className": "org.joget.apps.form.model.Column",
                 "elements": [
                     {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departments",
+                            "label": "Grupos Departamentos",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação",
+                                    "value": ""
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Filtro",
+                                    "value": ""
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Validação",
+                                    "value": ""
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Produção",
+                                    "value": ""
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
                         "className": "org.joget.plugin.enterprise.MultiSelectBox",
                         "properties": {
                             "controlField": "user_colaborador",
@@ -926,7 +968,7 @@
                             "autoPopulate": "",
                             "id": "field27",
                             "label": "",
-                            "value": "<script type=\"text/javascript\">\r\n$(function(){\r\n    $(\"#submit\").val(\"GUARDAR\");\r\n    $(\"#cancel\").text(\"CANCELAR\");\r\n});\r\n    \r\n<\/script>"
+                            "value": "<script type=\"text/javascript\">\r\n$(function(){\r\n    $(\"#submit\").val(\"GUARDAR\");\r\n    $(\"#cancel\").text(\"CANCELAR\");\r\n});\r\n\r\n\r\n$(document).ready(function(){\r\n    \r\n    \r\n    \r\n    \r\n});\r\n    \r\n<\/script>"
                         }
                     }
                 ],
