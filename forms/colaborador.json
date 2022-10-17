@@ -890,35 +890,46 @@
             "className": "org.joget.apps.form.model.Section",
             "elements": [{
                 "className": "org.joget.apps.form.model.Column",
-                "elements": [{
-                    "className": "org.joget.plugin.enterprise.MultiSelectBox",
-                    "properties": {
-                        "controlField": "user_colaborador",
-                        "id": "department",
-                        "label": "Departamentos",
-                        "multiple": "true",
-                        "options": [],
-                        "optionsBinder": {
-                            "className": "org.joget.plugin.enterprise.JdbcOptionsBinder",
-                            "properties": {
-                                "addEmpty": "",
-                                "cacheInterval": "",
-                                "jdbcDatasource": "default",
-                                "sql": "SELECT * FROM dir_department WHERE organizationId = 'PL' ;",
-                                "useAjax": ""
-                            }
-                        },
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "width": "40%",
-                        "workflowVariable": ""
+                "elements": [
+                    {
+                        "className": "org.joget.plugin.enterprise.MultiSelectBox",
+                        "properties": {
+                            "controlField": "user_colaborador",
+                            "id": "department",
+                            "label": "Departamentos",
+                            "multiple": "true",
+                            "options": [],
+                            "optionsBinder": {
+                                "className": "org.joget.plugin.enterprise.JdbcOptionsBinder",
+                                "properties": {
+                                    "addEmpty": "",
+                                    "cacheInterval": "",
+                                    "jdbcDatasource": "default",
+                                    "sql": "SELECT * FROM dir_department WHERE organizationId = 'PL' ;",
+                                    "useAjax": ""
+                                }
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "width": "40%",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field27",
+                            "label": "",
+                            "value": "<script type=\"text/javascript\">\r\n$(\"#saveAsDraft\").val(\"GUARDAR\");\r\n$(\"#cancel\").text(\"CANCELAR\");\r\n    \r\n<\/script>"
+                        }
                     }
-                }],
+                ],
                 "properties": {"width": "100%"}
             }],
             "properties": {
