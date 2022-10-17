@@ -911,12 +911,12 @@
                                 {
                                     "grouping": "",
                                     "label": "Validação",
-                                    "value": "PRD"
+                                    "value": "VAL"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "Produção",
-                                    "value": "VAL"
+                                    "value": "PRD"
                                 }
                             ],
                             "optionsBinder": {
@@ -968,7 +968,7 @@
                             "autoPopulate": "",
                             "id": "field27",
                             "label": "",
-                            "value": "<script type=\"text/javascript\">\r\n$(function(){\r\n    $(\"#submit\").val(\"GUARDAR\");\r\n    $(\"#cancel\").text(\"CANCELAR\");\r\n});\r\n\r\n\r\n$(document).ready(function(){\r\n    \r\n    $(\"div[id^=departamentos_grupo] input[type=checkbox]\").each(function(){\r\n        $(this).on('change', function(){\r\n            var checkBox = $(this).val();\r\n            if(this.checked){\r\n               \r\n               $(\"div[id=departamentos_chosen] li\").click();\r\n               $(\"div[id=departamentos_chosen] div ul li\").filter(function(){\r\n                   if($(this).text().includes(checkBox)){\r\n                       console.log($(this).text());\r\n                       \r\n                       \r\n                   }\r\n                 \r\n                   \r\n                   \r\n               });\r\n                \r\n                console.log(\"aAAA\" ); \r\n                \r\n            }else{\r\n                \r\n                console.log(\"BBBBB\"); \r\n            }\r\n           \r\n        });\r\n        \r\n    });\r\n    \r\n    \r\n});\r\n    \r\n<\/script>"
+                            "value": "<script type=\"text/javascript\">\r\n$(function(){\r\n    $(\"#submit\").val(\"GUARDAR\");\r\n    $(\"#cancel\").text(\"CANCELAR\");\r\n});\r\n\r\n\r\n$(document).ready(function(){\r\n    \r\n    $(\"div[id^=departamentos_grupo] input[type=checkbox]\").each(function(){\r\n        $(this).on('change', function(){\r\n            var checkBox = $(this).val();\r\n            if(this.checked){\r\n               \r\n               $(\"div[id=departamentos_chosen] li\").click();\r\n               $(\"div[id=departamentos_chosen] div ul li\").filter(function(){\r\n                   if($(this).text().includes(checkBox)){\r\n                       console.log($(this).text());\r\n                       $(this).click();\r\n                       \r\n                       \r\n                   }\r\n                 \r\n                   \r\n                   \r\n               });\r\n                \r\n                console.log(\"aAAA\" ); \r\n                \r\n            }else{\r\n                \r\n                console.log(\"BBBBB\"); \r\n            }\r\n           \r\n        });\r\n        \r\n    });\r\n    \r\n    \r\n});\r\n    \r\n<\/script>"
                         }
                     }
                 ],
