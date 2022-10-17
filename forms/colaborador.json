@@ -895,7 +895,7 @@
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
-                            "id": "departments",
+                            "id": "departmentos_grupo",
                             "label": "Grupos Departamentos",
                             "options": [
                                 {
@@ -906,17 +906,17 @@
                                 {
                                     "grouping": "",
                                     "label": "Filtro",
-                                    "value": ""
+                                    "value": "FLT"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "Validação",
-                                    "value": ""
+                                    "value": "PRD"
                                 },
                                 {
                                     "grouping": "",
                                     "label": "Produção",
-                                    "value": ""
+                                    "value": "VAL"
                                 }
                             ],
                             "optionsBinder": {
@@ -937,7 +937,7 @@
                         "className": "org.joget.plugin.enterprise.MultiSelectBox",
                         "properties": {
                             "controlField": "user_colaborador",
-                            "id": "department",
+                            "id": "departmentos",
                             "label": "Departamentos",
                             "multiple": "true",
                             "options": [],
