@@ -545,40 +545,7 @@
                         }
                     },
                     {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "",
-                            "id": "operativa",
-                            "label": "Operativa",
-                            "multiple": "",
-                            "options": [],
-                            "optionsBinder": {
-                                "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                "properties": {
-                                    "addEmptyOption": "true",
-                                    "cacheInterval": "",
-                                    "emptyLabel": "",
-                                    "extraCondition": "c_nome_campo = 'fase_processo'",
-                                    "formDefId": "listasValores",
-                                    "groupingColumn": "",
-                                    "idColumn": "value",
-                                    "labelColumn": "label",
-                                    "useAjax": ""
-                                }
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "size": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "className": "org.joget.plugin.enterprise.MultiSelectBox",
                         "properties": {
                             "controlField": "user_colaborador",
                             "id": "equipa",
@@ -595,12 +562,12 @@
                             },
                             "readonly": "",
                             "readonlyLabel": "",
-                            "size": "",
                             "validator": {
                                 "className": "",
                                 "properties": {}
                             },
                             "value": "",
+                            "width": "40%",
                             "workflowVariable": ""
                         }
                     }
@@ -898,6 +865,67 @@
                 "id": "section7",
                 "join": "",
                 "label": "Contacto de Emergência",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.MultiSelectBox",
+                    "properties": {
+                        "controlField": "user_colaborador",
+                        "id": "department",
+                        "label": "Departamentos",
+                        "multiple": "true",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "org.joget.plugin.enterprise.JdbcOptionsBinder",
+                            "properties": {
+                                "addEmpty": "",
+                                "cacheInterval": "",
+                                "jdbcDatasource": "default",
+                                "sql": "SELECT * FROM dir_department WHERE organizationId = 'PL' ;",
+                                "useAjax": ""
+                            }
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "width": "40%",
+                        "workflowVariable": ""
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "sectionDepartamentos",
+                "join": "",
+                "label": "Departamentos",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
