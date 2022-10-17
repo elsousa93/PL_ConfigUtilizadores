@@ -137,6 +137,15 @@
                         "value": "",
                         "workflowVariable": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field6",
+                        "label": "",
+                        "value": "<script type=\"text/javascript\">\r\n$(function(){\r\n    $(\"#submit\").val(\"GUARDAR\");\r\n    $(\"#cancel\").text(\"CANCELAR\");\r\n});\r\n<\/script>"
+                    }
                 }
             ],
             "properties": {"width": "100%"}
