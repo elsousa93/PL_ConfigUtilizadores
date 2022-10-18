@@ -917,6 +917,11 @@
                                     "grouping": "",
                                     "label": "Produção",
                                     "value": "PRD"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "CNT BCP",
+                                    "value": "CNT_BCP"
                                 }
                             ],
                             "optionsBinder": {
