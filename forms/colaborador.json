@@ -905,13 +905,53 @@
                                 },
                                 {
                                     "grouping": "",
+                                    "label": "Contratação ABN",
+                                    "value": "CNT_ABN"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação BCP",
+                                    "value": "CNT_BCP"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação BIC",
+                                    "value": "CNT_BIC"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação BST",
+                                    "value": "CNT_BST"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação CTT",
+                                    "value": "CNT_CTT"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação GEN",
+                                    "value": "CNT_GEN"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação MTG",
+                                    "value": "CNT_MTG"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação NVB",
+                                    "value": "CNT_NVB"
+                                },
+                                {
+                                    "grouping": "",
                                     "label": "Filtro",
                                     "value": "FLT"
                                 },
                                 {
                                     "grouping": "",
-                                    "label": "Validação",
-                                    "value": "VAL"
+                                    "label": "Filtro GEN",
+                                    "value": "FLT_GEN"
                                 },
                                 {
                                     "grouping": "",
@@ -920,8 +960,33 @@
                                 },
                                 {
                                     "grouping": "",
-                                    "label": "CNT BCP",
-                                    "value": "CNT_BCP"
+                                    "label": "Produção GEN",
+                                    "value": "PRD_GEN"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Validação",
+                                    "value": "VAL"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Validação BCP",
+                                    "value": "VAL_BCP"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Validação BNI",
+                                    "value": "VAL_BNI"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Validação BST",
+                                    "value": "VAL_BST"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Validação GEN",
+                                    "value": "VAL_GEN"
                                 }
                             ],
                             "optionsBinder": {
