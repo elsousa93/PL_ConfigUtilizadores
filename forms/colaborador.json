@@ -5,6 +5,55 @@
             "className": "org.joget.apps.form.model.Section",
             "elements": [{
                 "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.marketplace.FormRecordLockingField",
+                    "properties": {
+                        "displayNameFormat": "firstLast",
+                        "formDefId": "colaborador",
+                        "id": "record_lock",
+                        "label": "O formulário está bloqueado por",
+                        "lockDuration": "5",
+                        "validator": {
+                            "className": "org.joget.marketplace.FormRecordLockingValidator",
+                            "properties": {
+                                "errorMessage": "Este colaborador já está a ser editado",
+                                "formDefId": "colaborador"
+                            }
+                        }
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section9",
+                "join": "",
+                "label": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
                 "elements": [
                     {
                         "className": "org.joget.apps.form.lib.SelectBox",
