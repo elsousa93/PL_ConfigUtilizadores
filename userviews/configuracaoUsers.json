@@ -221,7 +221,7 @@
                 "disablePwa": "",
                 "displayCategoryLabel": "",
                 "enableResponsiveSwitch": "",
-                "fav_icon": "#appResource.users_image.jpg#",
+                "fav_icon": "#appResource.config_utilizadores.png#",
                 "fontColor": "WHITE",
                 "fontControl": "",
                 "homeAttractBanner": "",
@@ -247,6 +247,6 @@
             }
         },
         "userviewDescription": "",
-        "userview_thumbnail": "#appResource.users_image.jpg#"
+        "userview_thumbnail": "#appResource.config_utilizadores.png#"
     }}
 }
