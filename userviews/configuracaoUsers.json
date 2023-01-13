@@ -107,7 +107,7 @@
                         "enableOffline": "",
                         "id": "14D3B4A646A14960B6CFF060AF3D8607",
                         "keyName": "",
-                        "label": "Listagem de férias",
+                        "label": "Listagem de ausências",
                         "list-abortRelatedRunningProcesses": "",
                         "list-confirmation": "Deseja apagar este registo?",
                         "list-customFooter": "",
@@ -169,7 +169,7 @@
                         "formDefId": "CarregarFerias",
                         "id": "1936F2709942476C8DF506CA6E2D0C34",
                         "key": "0",
-                        "label": "Importar férias",
+                        "label": "Importar ausências",
                         "messageOnError": "",
                         "messageOnSuccess": "",
                         "redirectUrl": "",
@@ -182,7 +182,7 @@
             ],
             "properties": {
                 "id": "category-67B77E6F42D34BCBB320F008CE533227",
-                "label": "Gestão de férias"
+                "label": "Gestão de ausências"
             }
         }
     ],
