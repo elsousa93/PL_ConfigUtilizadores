@@ -157,6 +157,11 @@
                                 "col": "4",
                                 "field": "estado",
                                 "formatted": "false"
+                            },
+                            {
+                                "col": "5",
+                                "field": "motivo_ausencia",
+                                "formatted": "false"
                             }
                         ],
                         "corfirmation": "",
