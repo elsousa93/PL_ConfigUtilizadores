@@ -104,7 +104,7 @@
                     "properties": {
                         "cols": "20",
                         "id": "motivo_ausencia",
-                        "label": "Text Area",
+                        "label": "Motivo de Ausência",
                         "placeholder": "",
                         "readonly": "",
                         "readonlyLabel": "",
