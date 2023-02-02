@@ -65,6 +65,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "id": "column_4",
+            "label": "Motivo de Ausência",
+            "name": "motivo_ausencia",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_0",
             "label": "Estado",
             "name": "estado",
