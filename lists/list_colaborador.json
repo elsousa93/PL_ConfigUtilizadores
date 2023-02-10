@@ -79,18 +79,6 @@
         },
         {
             "datalist_type": "filter",
-            "filterParamName": "d-2621171-fn_nome_completo",
-            "hidden": "",
-            "id": "filter_6",
-            "label": "teste",
-            "name": "nome_completo",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
-            }
-        },
-        {
-            "datalist_type": "filter",
             "filterParamName": "d-2621171-fn_user_colaborador",
             "hidden": "",
             "id": "filter_5",
