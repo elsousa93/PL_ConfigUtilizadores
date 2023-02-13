@@ -117,7 +117,7 @@
                                 "className": "org.joget.apps.form.lib.DefaultValidator",
                                 "properties": {
                                     "mandatory": "true",
-                                    "message": "",
+                                    "message": "Campo obrigatório",
                                     "type": ""
                                 }
                             },
