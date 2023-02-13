@@ -84,7 +84,7 @@
                                 "className": "org.joget.apps.form.lib.BeanShellValidator",
                                 "properties": {
                                     "decoration": "",
-                                    "script": "if(\"#requestParam._mode#\".equals(\"edit\")){\n    \n    document.getElementById(\"user_colaborador\").readOnly = true;\n    \n} else if(\"#requestParam._mode#\".equals(\"assignment\")){\n\n}"
+                                    "script": "import org.joget.apps.app.service.AppUtil;\nimport org.joget.apps.form.dao.FormDataDao;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.model.FormRow;\nimport org.joget.commons.util.LogUtil;\nimport org.joget.apps.form.service.FormUtil;\n\nif(\"#requestParam._mode#\".equals(\"edit\")){\n    \n    document.querySelector('[id*=\"user_colaborador\"]').readOnly = true;\n    \n} else if(\"#requestParam._mode#\".equals(\"assignment\")){\n\n}"
                                 }
                             },
                             "value": "",
