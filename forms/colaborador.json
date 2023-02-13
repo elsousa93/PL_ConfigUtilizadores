@@ -94,7 +94,7 @@
                             "autoPopulate": "",
                             "id": "js_colaborador",
                             "label": "",
-                            "value": "<script>\n    \n    $(document).ready(function(){\n        \n        if(\"#requestParam._mode#\" === \"edit\"){\n            document.querySelector('[id*=\"user_colaborador\"]').setAttribute(\"disabled\",\"true\");\n        }\n        \n        form = document.getElementById(\"colaborador\");\n        \n        form.addEventListener(\"GUARDAR\", function(event) {\n            selectBox.removeAttribute(\"disabled\");\n        });\n        \n    });\n    \n<\/script>"
+                            "value": "<script>\n    \n    $(document).ready(function(){\n        \n        if(\"#requestParam._mode#\" === \"edit\"){\n            document.querySelector('[id*=\"user_colaborador\"]').setAttribute(\"disabled\",\"true\");\n        }\n        \n        form = document.getElementById(\"colaborador\");\n        \n        form.addEventListener(\"submit\", function(event) {\n            alert(\"Button was clicked\");\n            selectBox.removeAttribute(\"disabled\");\n        });\n        \n    });\n    \n<\/script>"
                         }
                     },
                     {
