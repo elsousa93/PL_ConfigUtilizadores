@@ -8,6 +8,7 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "datalist_type": "column",
             "filterable": true,
             "hidden": "false",
             "id": "column_6",
@@ -57,7 +58,7 @@
                 "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
                 "properties": {
                     "defaultValue": "",
-                    "multiple": "autocomplete",
+                    "multiple": "textfield",
                     "options": [],
                     "optionsBinder": {
                         "className": "org.joget.plugin.enterprise.UserOptionsBinder",
@@ -70,7 +71,7 @@
                             "grouping": "",
                             "optionLabel": "fullname",
                             "orgId": "",
-                            "useAjax": "true"
+                            "useAjax": ""
                         }
                     },
                     "size": ""
