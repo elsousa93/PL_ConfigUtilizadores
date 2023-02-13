@@ -94,7 +94,7 @@
                             "autoPopulate": "",
                             "id": "js_colaborador",
                             "label": "",
-                            "value": "<script>\n    \n    $(document).ready(function(){\n        var modo = #requestParam._mode#;\n        \n        /*if(#requestParam._mode# === \"edit\"){\n            \n            document.querySelector('[id*=\"user_colaborador\"]').setAttribute(\"disabled\",\"true\");\n            \n        }*/\n    });\n    \n    /*$(document).ready(function(){\n        if(\"#requestParam._mode#\".equals(\"edit\")){\n            \n            document.querySelector('[id*=\"user_colaborador\"]').setAttribute(\"disabled\",\"true\")\n            \n        }\n    });*/\n\n<\/script>"
+                            "value": "<script>\n    \n    $(document).ready(function(){\n        var modo = #requestParam.mode#;\n        \n        /*if(#requestParam._mode# === \"edit\"){\n            \n            document.querySelector('[id*=\"user_colaborador\"]').setAttribute(\"disabled\",\"true\");\n            \n        }*/\n    });\n    \n    /*$(document).ready(function(){\n        if(\"#requestParam._mode#\".equals(\"edit\")){\n            \n            document.querySelector('[id*=\"user_colaborador\"]').setAttribute(\"disabled\",\"true\")\n            \n        }\n    });*/\n\n<\/script>"
                         }
                     },
                     {
