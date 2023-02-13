@@ -70,7 +70,7 @@
                             "grouping": "",
                             "optionLabel": "fullname",
                             "orgId": "",
-                            "useAjax": ""
+                            "useAjax": "true"
                         }
                     },
                     "size": ""
