@@ -203,9 +203,9 @@
     "setting": {"properties": {
         "hideThisUserviewInAppCenter": "",
         "permission": {
-            "className": "org.joget.apps.userview.lib.GroupPermission",
+            "className": "org.joget.apps.userview.lib.DepartmentPermission",
             "properties": {
-                "allowedGroupIds": "Coordenador;DiretorCoordenador",
+                "allowedDeptIds": "PL_INT_RH",
                 "orgId": "PL"
             }
         },
