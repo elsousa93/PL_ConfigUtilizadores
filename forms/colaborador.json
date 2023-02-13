@@ -81,11 +81,8 @@
                             "readonlyLabel": "",
                             "size": "",
                             "validator": {
-                                "className": "org.joget.apps.form.lib.BeanShellValidator",
-                                "properties": {
-                                    "decoration": "",
-                                    "script": "import org.joget.apps.app.service.AppUtil;\nimport org.joget.apps.form.dao.FormDataDao;\nimport org.joget.apps.form.model.FormRowSet;\nimport org.joget.apps.form.model.FormRow;\nimport org.joget.commons.util.LogUtil;\nimport org.joget.apps.form.service.FormUtil;\n\n"
-                                }
+                                "className": "",
+                                "properties": {}
                             },
                             "value": "",
                             "workflowVariable": ""
