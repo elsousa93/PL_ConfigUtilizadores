@@ -81,8 +81,11 @@
                             "readonlyLabel": "",
                             "size": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.BeanShellValidator",
+                                "properties": {
+                                    "decoration": "",
+                                    "script": "if(\"#requestParam._mode#\".equals(\"edit\")){\n    \n    document.getElementById(\"user_colaborador\").readOnly = true;\n    \n} else if(\"#requestParam._mode#\".equals(\"assignment\")){\n\n}"
+                                }
                             },
                             "value": "",
                             "workflowVariable": ""
