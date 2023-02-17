@@ -97,7 +97,7 @@
                             "autoPopulate": "",
                             "id": "js_colaborador",
                             "label": "",
-                            "value": "<script>\n    \n    $(document).ready(function(){\n        \n        //SELECT BOX COLABORADOR\n        let selectBox = document.querySelector('[id*=\"user_colaborador\"]');\n        \n        if(\"#requestParam._mode#\" === \"edit\"){\n            selectBox.setAttribute(\"disabled\",\"true\");\n        }\n        \n        form = document.getElementById(\"colaborador\");\n        \n        form.addEventListener(\"submit\", function(event) {\n            selectBox.removeAttribute(\"disabled\");\n        });\n        \n        \n        //MENSAGEM ERRO DE VALIDAÇÃO\n        $('body[id*=informacaoColaboradores] div.form-message').text(\"EXISTEM ERROS DE VALIDAÇÃO\");\n        \n    });\n    \n<\/script>"
+                            "value": "<script>\n    \n    $(document).ready(function(){\n        \n        //SELECT BOX COLABORADOR\n        /*let selectBox = document.querySelector('[id*=\"user_colaborador\"]');\n        \n        if(\"#requestParam._mode#\" === \"edit\"){\n            selectBox.setAttribute(\"disabled\",\"true\");\n        }\n        \n        form = document.getElementById(\"colaborador\");\n        \n        form.addEventListener(\"submit\", function(event) {\n            selectBox.removeAttribute(\"disabled\");\n        });*/\n        \n        \n        //MENSAGEM ERRO DE VALIDAÇÃO\n        $('body[id*=informacaoColaboradores] div.form-message').text(\"EXISTEM ERROS DE VALIDAÇÃO\");\n        \n    });\n    \n<\/script>"
                         }
                     },
                     {
