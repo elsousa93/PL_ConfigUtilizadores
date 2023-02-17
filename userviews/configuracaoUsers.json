@@ -73,7 +73,7 @@
                 "permission": {
                     "className": "org.joget.apps.userview.lib.DepartmentPermission",
                     "properties": {
-                        "allowedDeptIds": "PL_INT_RH",
+                        "allowedDeptIds": "PL_INT_INF;PL_INT_RH",
                         "orgId": "PL"
                     }
                 }
