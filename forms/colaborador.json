@@ -92,6 +92,15 @@
                         }
                     },
                     {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "js_colaborador",
+                            "label": "",
+                            "value": "<script>\r\n    \r\n    $(document).ready(function(){\r\n        \r\n        //SELECT BOX COLABORADOR\r\n        let selectBox = document.querySelector('[id*=\"user_colaborador\"]');\r\n        \r\n        if(\"#requestParam._mode#\" === \"edit\"){\r\n            selectBox.setAttribute(\"disabled\",\"true\");\r\n        }\r\n        \r\n        form = document.getElementById(\"colaborador\");\r\n        \r\n        form.addEventListener(\"submit\", function(event) {\r\n            selectBox.removeAttribute(\"disabled\");\r\n        });\r\n        \r\n        \r\n        //MENSAGEM ERRO DE VALIDAÇÃO\r\n        $('body[id*=informacaoColaboradores] div.form-message').text(\"EXISTEM ERROS DE VALIDAÇÃO\");\r\n        \r\n    });\r\n    \r\n<\/script>"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "encryption": "",
