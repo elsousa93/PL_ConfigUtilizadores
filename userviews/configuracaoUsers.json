@@ -71,11 +71,8 @@
                 "id": "category-A325189B196A4972943360B4F2F8EFAD",
                 "label": "<i class=\"fa fa-tasks\"><\/i>Configurações de acessos",
                 "permission": {
-                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
-                    "properties": {
-                        "allowedDeptIds": "PL_INT_INF;PL_INT_RH",
-                        "orgId": "PL"
-                    }
+                    "className": "",
+                    "properties": {}
                 }
             }
         },
@@ -194,11 +191,8 @@
                 "id": "category-67B77E6F42D34BCBB320F008CE533227",
                 "label": "Gestão de ausências",
                 "permission": {
-                    "className": "org.joget.apps.userview.lib.GroupPermission",
-                    "properties": {
-                        "allowedGroupIds": "Coordenador;DiretorCoordenador",
-                        "orgId": "PL"
-                    }
+                    "className": "",
+                    "properties": {}
                 }
             }
         }
