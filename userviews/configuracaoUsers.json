@@ -4,8 +4,15 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [],
             "properties": {
+                "hide": "",
                 "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-                "label": "<i class='fa fa-home'><\/i> Home"
+                "label": "<i class='fa fa-home'><\/i> Home",
+                "permissionDeny": "",
+                "permission_rules": {
+                    "7561e340-199e-6523-d373-8e1987840938": {},
+                    "871451a1-aada-5486-2c6d-6d5f4daf1fc7": {},
+                    "ceabc3a8-0a43-8191-46c8-d01b604b8459": {}
+                }
             }
         },
         {
@@ -59,6 +66,11 @@
                     "list-newButtonLabel": "ADICIONAR",
                     "list-newLinkTarget": "",
                     "list-showDeleteButton": "yes",
+                    "permission_rules": {
+                        "7561e340-199e-6523-d373-8e1987840938": {},
+                        "871451a1-aada-5486-2c6d-6d5f4daf1fc7": {},
+                        "ceabc3a8-0a43-8191-46c8-d01b604b8459": {}
+                    },
                     "rowCount": "true",
                     "selectionType": "multiple",
                     "userviewCacheDuration": "",
@@ -73,6 +85,12 @@
                 "permission": {
                     "className": "",
                     "properties": {}
+                },
+                "permissionDeny": "true",
+                "permission_rules": {
+                    "7561e340-199e-6523-d373-8e1987840938": {},
+                    "871451a1-aada-5486-2c6d-6d5f4daf1fc7": {},
+                    "ceabc3a8-0a43-8191-46c8-d01b604b8459": {}
                 }
             }
         },
@@ -122,6 +140,11 @@
                         "list-newButtonLabel": "ADICIONAR",
                         "list-newLinkTarget": "",
                         "list-showDeleteButton": "",
+                        "permission_rules": {
+                            "7561e340-199e-6523-d373-8e1987840938": {},
+                            "871451a1-aada-5486-2c6d-6d5f4daf1fc7": {},
+                            "ceabc3a8-0a43-8191-46c8-d01b604b8459": {}
+                        },
                         "rowCount": "",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
@@ -177,6 +200,11 @@
                         "label": "Importar ausências",
                         "messageOnError": "",
                         "messageOnSuccess": "",
+                        "permission_rules": {
+                            "7561e340-199e-6523-d373-8e1987840938": {},
+                            "871451a1-aada-5486-2c6d-6d5f4daf1fc7": {},
+                            "ceabc3a8-0a43-8191-46c8-d01b604b8459": {}
+                        },
                         "redirectUrl": "",
                         "rowStart": "1",
                         "userviewCacheDuration": "20",
@@ -193,6 +221,12 @@
                 "permission": {
                     "className": "",
                     "properties": {}
+                },
+                "permissionDeny": "true",
+                "permission_rules": {
+                    "7561e340-199e-6523-d373-8e1987840938": {},
+                    "871451a1-aada-5486-2c6d-6d5f4daf1fc7": {},
+                    "ceabc3a8-0a43-8191-46c8-d01b604b8459": {}
                 }
             }
         }
@@ -212,6 +246,41 @@
             "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
             "properties": {}
         },
+        "permission_rules": [
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_INT_INF",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "871451a1-aada-5486-2c6d-6d5f4daf1fc7",
+                "permission_name": "INF"
+            },
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.DepartmentPermission",
+                    "properties": {
+                        "allowedDeptIds": "PL_INT_RH",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "ceabc3a8-0a43-8191-46c8-d01b604b8459",
+                "permission_name": "RH"
+            },
+            {
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "properties": {
+                        "allowedGroupIds": "Coordenador;DiretorCoordenador",
+                        "orgId": "PL"
+                    }
+                },
+                "permission_key": "7561e340-199e-6523-d373-8e1987840938",
+                "permission_name": "Coordenadores e Diretores Coordenadores"
+            }
+        ],
         "tempDisablePermissionChecking": "",
         "theme": {
             "className": "org.joget.plugin.enterprise.ProgressiveTheme",
