@@ -245,7 +245,7 @@
     "className": "org.joget.apps.userview.model.Userview",
     "properties": {
         "description": "",
-        "footerMessage": "Powered by Joget",
+        "footerMessage": "",
         "id": "configuracaoUsers",
         "logoutText": "Logout",
         "name": "Gestão de Utilizadores",
