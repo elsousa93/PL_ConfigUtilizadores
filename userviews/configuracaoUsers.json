@@ -117,7 +117,7 @@
                         "add-customHeader": "",
                         "add-messageShowAfterComplete": "",
                         "add-saveButtonLabel": "Gravar",
-                        "addFormId": "CarregarFerias",
+                        "addFormId": "",
                         "buttonPosition": "bottomLeft",
                         "cacheAllLinks": "",
                         "cacheListAction": "",
