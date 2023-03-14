@@ -505,7 +505,7 @@
                                 "autoPopulate": "",
                                 "id": "field32",
                                 "label": "",
-                                "value": "<script>\n    $(document).ready(function(){\n        var username = $(\"select[id*=user_colaborador]\").val();\n        var jogetEmail = '#user.{'+username+'}.email#?javascript'; \n        console.log(jogetEmail);\n        $(\"input#email_profissional\").val(jogetEmail);\n        \n        \n    });\n    \n<\/script>"
+                                "value": "<script>\n    $(document).ready(function(){\n        var username = $(\"select[id*=user_colaborador]\").val();\n        var jogetEmail = '#user.'+username+'.email#?javascript'; \n        console.log(jogetEmail);\n        $(\"input#email_profissional\").val(jogetEmail);\n        \n        \n    });\n    \n<\/script>"
                             }
                         }
                     ],
