@@ -10,8 +10,15 @@
    <pluginDefaultPropertiesList/>
    <environmentVariableList>
       <environmentVariable>
+         <id>apiIdAtualizarCampos</id>
+         <appId>PLConfiguracaoUsers</appId>
+         <value>API-06eb66c4-83c2-41bb-8743-38500237d077</value>
+         <remarks></remarks>
+      </environmentVariable>
+      <environmentVariable>
          <id>apiKeyAtualizarCampos</id>
          <appId>PLConfiguracaoUsers</appId>
+         <appVersion>1</appVersion>
          <value>2540c853fd6d45f78c79a27f043f09f7</value>
          <remarks></remarks>
       </environmentVariable>
