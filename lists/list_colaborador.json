@@ -1,117 +1,72 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "className": "org.joget.plugin.enterprise.JdbcDataListBinder",
         "properties": {
-            "aggregateField": [],
-            "customSelectionValue": "",
-            "extraCondition": "e.customProperties.departamentos regexp replace('#currentUser.department.id#', ';','|')",
-            "filters": [],
-            "formDefId": "colaborador",
-            "functionColumns": [],
-            "groupBy": "",
-            "joins": []
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "id",
+            "sql": "SELECT c_nome_completo, c_user_colaborador, c_numero_cc, c_categoria_profissional, c_cedula_estagiario, c_cedula_profissional FROM app_fd_info_colaboradores c WHERE c.c_departamentos REGEXP REPLACE('#currentUser.department.id#', ';','|')"
         }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
     "columns": [
         {
-            "datalist_type": "column",
             "filterable": true,
             "hidden": "false",
-            "id": "column_6",
-            "label": "Nome Completo",
-            "name": "nome_completo",
+            "id": "column_0",
+            "label": "c_nome_completo",
+            "name": "c_nome_completo",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "c_user_colaborador",
+            "name": "c_user_colaborador",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "id": "column_2",
-            "label": "Colaborador",
-            "name": "user_colaborador",
+            "label": "c_numero_cc",
+            "name": "c_numero_cc",
             "sortable": "false"
         },
         {
-            "id": "column_0",
-            "label": "Cartão de Cidadão",
-            "name": "numero_cc"
-        },
-        {
-            "id": "column_1",
-            "label": "Categoria Profissional",
-            "name": "categoria_profissional"
-        },
-        {
-            "id": "column_3",
-            "label": "Cédula Estagiária",
-            "name": "cedula_estagiario"
-        },
-        {
+            "filterable": true,
+            "hidden": "false",
             "id": "column_4",
-            "label": "Cédula Profissional",
-            "name": "cedula_profissional"
+            "label": "c_categoria_profissional",
+            "name": "c_categoria_profissional",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_3",
+            "label": "c_cedula_estagiario",
+            "name": "c_cedula_estagiario",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_5",
+            "label": "c_cedula_profissional",
+            "name": "c_cedula_profissional",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
     "filters": [
         {
-            "datalist_type": "filter",
-            "filterParamName": "d-2621171-fn_nome_completo",
-            "hidden": "",
-            "id": "filter_4",
-            "label": "Nome Completo",
-            "name": "nome_completo",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
-            }
-        },
-        {
-            "datalist_type": "filter",
-            "filterParamName": "d-2621171-fn_user_colaborador",
-            "hidden": "",
-            "id": "filter_5",
-            "label": "Colaborador",
-            "name": "user_colaborador",
-            "type": {
-                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-                "properties": {
-                    "defaultValue": "",
-                    "multiple": "autocomplete",
-                    "options": [],
-                    "optionsBinder": {
-                        "className": "org.joget.plugin.enterprise.UserOptionsBinder",
-                        "properties": {
-                            "addEmptyOption": "",
-                            "cacheInterval": "",
-                            "deptId": "",
-                            "emptyLabel": "",
-                            "groupId": "",
-                            "grouping": "",
-                            "optionLabel": "username",
-                            "orgId": "PL",
-                            "useAjax": ""
-                        }
-                    },
-                    "size": ""
-                }
-            }
-        },
-        {
-            "id": "filter_3",
-            "label": "Cartão de Cidadão",
-            "name": "numero_cc",
-            "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
-            }
-        },
-        {
-            "id": "filter_2",
-            "label": "Categoria Profissional",
-            "name": "categoria_profissional",
+            "id": "filter_0",
+            "label": "c_nome_completo",
+            "name": "c_nome_completo",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
@@ -119,17 +74,44 @@
         },
         {
             "id": "filter_1",
-            "label": "Cédula Estagiária",
-            "name": "cedula_estagiario",
+            "label": "c_user_colaborador",
+            "name": "c_user_colaborador",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
             }
         },
         {
-            "id": "filter_0",
-            "label": "Cédula Profissional",
-            "name": "cedula_profissional",
+            "id": "filter_2",
+            "label": "c_numero_cc",
+            "name": "c_numero_cc",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_3",
+            "label": "c_categoria_profissional",
+            "name": "c_categoria_profissional",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_5",
+            "label": "c_cedula_estagiario",
+            "name": "c_cedula_estagiario",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_4",
+            "label": "c_cedula_profissional",
+            "name": "c_cedula_profissional",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {}
