@@ -2,7 +2,16 @@
     "actions": [],
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
-        "properties": {"formDefId": "colaborador"}
+        "properties": {
+            "aggregateField": [],
+            "customSelectionValue": "",
+            "extraCondition": "e.customProperties.departamentos REGEXP REPLACE (#currentUser.department.id#, ';','|')",
+            "filters": [],
+            "formDefId": "colaborador",
+            "functionColumns": [],
+            "groupBy": "",
+            "joins": []
+        }
     },
     "buttonPosition": "bottomLeft",
     "checkboxPosition": "left",
