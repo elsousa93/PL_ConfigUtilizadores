@@ -10,6 +10,10 @@
                     "enableOffline": "",
                     "id": "F58E2DDE493D46DC851BD534BCA0647D",
                     "label": "Início",
+                    "permission_rules": {
+                        "7561e340-199e-6523-d373-8e1987840938": {},
+                        "871451a1-aada-5486-2c6d-6d5f4daf1fc7": {}
+                    },
                     "userviewCacheDuration": "20",
                     "userviewCacheScope": ""
                 }
@@ -284,7 +288,7 @@
                 "permission": {
                     "className": "org.joget.apps.userview.lib.GroupPermission",
                     "properties": {
-                        "allowedGroupIds": "Coordenador;DiretorCoordenador",
+                        "allowedGroupIds": "apoioCoordenador;Coordenador;DiretorCoordenador",
                         "orgId": "PL"
                     }
                 },
