@@ -5,7 +5,7 @@
         "properties": {
             "aggregateField": [],
             "customSelectionValue": "",
-            "extraCondition": "e.customProperties.departamentos REGEXP REPLACE (#currentUser.department.id#, ';','|')",
+            "extraCondition": "e.customProperties.departamentos REGEXP REPLACE (#currentUser.department.id#, \";\",\"|\")",
             "filters": [],
             "formDefId": "colaborador",
             "functionColumns": [],
