@@ -13,108 +13,229 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_0",
-            "label": "c_nome_completo",
+            "label": "Nome Completo",
             "name": "c_nome_completo",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_1",
-            "label": "c_user_colaborador",
+            "label": "Colaborador",
             "name": "c_user_colaborador",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_2",
-            "label": "c_numero_cc",
+            "label": "Cartão de Cidadão",
             "name": "c_numero_cc",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_4",
-            "label": "c_categoria_profissional",
+            "label": "Categoria Profissional",
             "name": "c_categoria_profissional",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_3",
-            "label": "c_cedula_estagiario",
+            "label": "Cédula Estagiária",
             "name": "c_cedula_estagiario",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
             "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
             "hidden": "false",
             "id": "column_5",
-            "label": "c_cedula_profissional",
+            "label": "Cédula Profissional",
             "name": "c_cedula_profissional",
-            "sortable": "false"
+            "sortable": "false",
+            "style": "",
+            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
     "filters": [
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_nome_completo",
+            "hidden": "",
             "id": "filter_0",
-            "label": "c_nome_completo",
+            "label": "Nome Completo",
             "name": "c_nome_completo",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_user_colaborador",
+            "hidden": "",
             "id": "filter_1",
-            "label": "c_user_colaborador",
+            "label": "Colaborador",
             "name": "c_user_colaborador",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "autocomplete",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.plugin.enterprise.UserOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "deptId": "",
+                            "emptyLabel": "",
+                            "groupId": "",
+                            "grouping": "",
+                            "optionLabel": "username",
+                            "orgId": "PL",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_numero_cc",
+            "hidden": "",
             "id": "filter_2",
-            "label": "c_numero_cc",
+            "label": "Cartão de Cidadão",
             "name": "c_numero_cc",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_categoria_profissional",
+            "hidden": "",
             "id": "filter_3",
-            "label": "c_categoria_profissional",
+            "label": "Categoria Profissional",
             "name": "c_categoria_profissional",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_cedula_estagiario",
+            "hidden": "",
             "id": "filter_5",
-            "label": "c_cedula_estagiario",
+            "label": "Cédula Estagiário",
             "name": "c_cedula_estagiario",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_cedula_profissional",
+            "hidden": "",
             "id": "filter_4",
-            "label": "c_cedula_profissional",
+            "label": "Cédula Profissional",
             "name": "c_cedula_profissional",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         }
     ],
