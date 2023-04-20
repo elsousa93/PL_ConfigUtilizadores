@@ -6,7 +6,7 @@
             "jdbcDatasource": "default",
             "optimisePaging": "",
             "primaryKey": "id",
-            "sql": "SELECT c_nome_completo, c_user_colaborador, c_numero_cc, c_categoria_profissional, c_cedula_estagiario, c_cedula_profissional FROM app_fd_info_colaboradores c WHERE c.c_departamentos REGEXP REPLACE('#currentUser.department.id#', ';','|')"
+            "sql": "SELECT id, c_nome_completo, c_user_colaborador, c_numero_cc, c_categoria_profissional, c_cedula_estagiario, c_cedula_profissional FROM app_fd_info_colaboradores c WHERE c.c_departamentos REGEXP REPLACE('#currentUser.department.id#', ';','|')"
         }
     },
     "buttonPosition": "bottomLeft",
