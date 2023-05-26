@@ -1268,6 +1268,103 @@
                             "value": "",
                             "workflowVariable": ""
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo10",
+                            "label": "Distrates",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Distrates",
+                                    "value": "INT_DIST"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Distrates ABN",
+                                    "value": "INT_DIST_ABN"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Distrates BIC",
+                                    "value": "INT_DIST_BIC"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Distrates BCP",
+                                    "value": "INT_DIST_BCP"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Distrates MTG",
+                                    "value": "INT_DIST_MTG"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo8",
+                            "label": "Informática",
+                            "options": [{
+                                "grouping": "",
+                                "label": "Informática",
+                                "value": "INT_INF"
+                            }],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo9",
+                            "label": "Recursos Humanos",
+                            "options": [{
+                                "grouping": "",
+                                "label": "Recursos Humanos",
+                                "value": "INT_RH"
+                            }],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
                     }
                 ],
                 "properties": {
