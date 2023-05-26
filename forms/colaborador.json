@@ -1030,6 +1030,15 @@
                         }
                     },
                     {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<script>\n    /* Dashed border */\nhr.dashed {\n border-top: 3px dashed #bbb;\n}\n\n    \n    \n<\/script>\n<hr class=\"dashed\">\n"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
