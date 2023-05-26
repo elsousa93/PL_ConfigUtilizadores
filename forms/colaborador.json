@@ -1035,7 +1035,7 @@
                             "autoPopulate": "",
                             "id": "field38",
                             "label": "",
-                            "value": "<hr class=\"dashed\">"
+                            "value": "<hr class=\"dotted\">"
                         }
                     },
                     {
