@@ -1013,7 +1013,61 @@
                                     "grouping": "",
                                     "label": "Contratação NVB",
                                     "value": "CNT_NVB"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo2",
+                            "label": "Filtro",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Filtro",
+                                    "value": "FLT"
                                 },
+                                {
+                                    "grouping": "",
+                                    "label": "Filtro GEN",
+                                    "value": "FLT_GEN"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo3",
+                            "label": "Produção",
+                            "options": [
                                 {
                                     "grouping": "",
                                     "label": "Produção",
@@ -1023,7 +1077,29 @@
                                     "grouping": "",
                                     "label": "Produção GEN",
                                     "value": "PRD_GEN"
-                                },
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo4",
+                            "label": "Validação",
+                            "options": [
                                 {
                                     "grouping": "",
                                     "label": "Validação",
@@ -1062,47 +1138,6 @@
                             },
                             "value": "",
                             "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.CheckBox",
-                        "properties": {
-                            "controlField": "",
-                            "id": "departamentos_grupo2",
-                            "label": "Check Box",
-                            "options": [
-                                {
-                                    "grouping": "",
-                                    "label": "Filtro",
-                                    "value": "FLT"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "Filtro GEN",
-                                    "value": "FLT_GEN"
-                                }
-                            ],
-                            "optionsBinder": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "readonly": "",
-                            "readonlyLabel": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "value": "",
-                            "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.CheckBox",
-                        "properties": {
-                            "id": "field34",
-                            "label": "Check Box",
-                            "readonly": "False",
-                            "readonlyLabel": "False"
                         }
                     },
                     {
