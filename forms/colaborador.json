@@ -1034,70 +1034,6 @@
                             "className": "org.joget.apps.form.lib.CheckBox",
                             "properties": {
                                 "controlField": "",
-                                "id": "departamentos_grupo3",
-                                "label": "Produção",
-                                "options": [
-                                    {
-                                        "grouping": "",
-                                        "label": "Produção",
-                                        "value": "PRD"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Produção GEN",
-                                        "value": "PRD_GEN"
-                                    }
-                                ],
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "controlField": "",
-                                "id": "departamentos_grupo2",
-                                "label": "Filtro",
-                                "options": [
-                                    {
-                                        "grouping": "",
-                                        "label": "Filtro",
-                                        "value": "FLT"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Filtro GEN",
-                                        "value": "FLT_GEN"
-                                    }
-                                ],
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "controlField": "",
                                 "id": "departamentos_grupo4",
                                 "label": "Validação",
                                 "options": [
@@ -1147,6 +1083,70 @@
                 {
                     "className": "org.joget.apps.form.model.Column",
                     "elements": [
+                        {
+                            "className": "org.joget.apps.form.lib.CheckBox",
+                            "properties": {
+                                "controlField": "",
+                                "id": "departamentos_grupo2",
+                                "label": "Filtro",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "Filtro",
+                                        "value": "FLT"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "Filtro GEN",
+                                        "value": "FLT_GEN"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.CheckBox",
+                            "properties": {
+                                "controlField": "",
+                                "id": "departamentos_grupo3",
+                                "label": "Produção",
+                                "options": [
+                                    {
+                                        "grouping": "",
+                                        "label": "Produção",
+                                        "value": "PRD"
+                                    },
+                                    {
+                                        "grouping": "",
+                                        "label": "Produção GEN",
+                                        "value": "PRD_GEN"
+                                    }
+                                ],
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        },
                         {
                             "className": "org.joget.apps.form.lib.CheckBox",
                             "properties": {
