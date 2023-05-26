@@ -1270,6 +1270,15 @@
                         }
                     },
                     {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dotted\">"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
@@ -1317,6 +1326,56 @@
                         }
                     },
                     {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dotted\">"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo13",
+                            "label": "Hipotecas/Leasing",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Hipotecas",
+                                    "value": "INT_HIP"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Leasing",
+                                    "value": "INT_LEA"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dotted\">"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
@@ -1342,6 +1401,15 @@
                         }
                     },
                     {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dotted\">"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
@@ -1364,6 +1432,86 @@
                             },
                             "value": "",
                             "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dotted\">"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo11",
+                            "label": "Entidade",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Entidade Não Autónoma",
+                                    "value": "EXT_ENT_NA"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Entidade Semi Autónoma",
+                                    "value": "EXT_ENT_SA"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Entidade Autónoma",
+                                    "value": "EXT_ENT_A"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo12",
+                            "label": "Procurador",
+                            "options": [{
+                                "grouping": "",
+                                "label": "Procurador",
+                                "value": "EXT_PRC"
+                            }],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dotted\">"
                         }
                     }
                 ],
