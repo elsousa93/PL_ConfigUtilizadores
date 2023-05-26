@@ -1016,16 +1016,6 @@
                                 },
                                 {
                                     "grouping": "",
-                                    "label": "Filtro",
-                                    "value": "FLT"
-                                },
-                                {
-                                    "grouping": "",
-                                    "label": "Filtro GEN",
-                                    "value": "FLT_GEN"
-                                },
-                                {
-                                    "grouping": "",
                                     "label": "Produção",
                                     "value": "PRD"
                                 },
@@ -1080,11 +1070,18 @@
                             "controlField": "",
                             "id": "departamentos_grupo2",
                             "label": "Check Box",
-                            "options": [{
-                                "grouping": "",
-                                "label": "SIM",
-                                "value": "SIM"
-                            }],
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Filtro",
+                                    "value": "FLT"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Filtro GEN",
+                                    "value": "FLT_GEN"
+                                }
+                            ],
                             "optionsBinder": {
                                 "className": "",
                                 "properties": {}
@@ -1097,6 +1094,15 @@
                             },
                             "value": "",
                             "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "id": "field34",
+                            "label": "Check Box",
+                            "readonly": "False",
+                            "readonlyLabel": "False"
                         }
                     },
                     {
