@@ -1071,6 +1071,15 @@
                         }
                     },
                     {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dashed\">"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
@@ -1100,6 +1109,15 @@
                             },
                             "value": "",
                             "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dashed\">"
                         }
                     },
                     {
@@ -1150,6 +1168,15 @@
                         }
                     },
                     {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dashed\">"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
@@ -1172,6 +1199,15 @@
                             },
                             "value": "",
                             "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dashed\">"
                         }
                     },
                     {
