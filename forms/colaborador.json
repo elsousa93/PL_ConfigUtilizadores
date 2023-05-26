@@ -1180,6 +1180,40 @@
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
+                            "id": "departamentos_grupo5",
+                            "label": "Registos",
+                            "options": [{
+                                "grouping": "",
+                                "label": "Registos",
+                                "value": "INT_REG"
+                            }],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dotted\">"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
                             "id": "departamentos_grupo6",
                             "label": "Acompanhamento de Outorga",
                             "options": [{
@@ -1214,12 +1248,12 @@
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
-                            "id": "departamentos_grupo5",
-                            "label": "Registos",
+                            "id": "departamentos_grupo7",
+                            "label": "Procuradoria",
                             "options": [{
                                 "grouping": "",
-                                "label": "Registos",
-                                "value": "INT_REG"
+                                "label": "Procuradoria",
+                                "value": "INT_PROCU"
                             }],
                             "optionsBinder": {
                                 "className": "",
@@ -1233,15 +1267,6 @@
                             },
                             "value": "",
                             "workflowVariable": ""
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.CustomHTML",
-                        "properties": {
-                            "autoPopulate": "",
-                            "id": "field38",
-                            "label": "",
-                            "value": "<hr class=\"dotted\">"
                         }
                     }
                 ],
