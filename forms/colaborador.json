@@ -1076,7 +1076,7 @@
                             "autoPopulate": "",
                             "id": "field38",
                             "label": "",
-                            "value": "<hr class=\"dashed\">"
+                            "value": "<hr class=\"dotted\">"
                         }
                     },
                     {
@@ -1117,7 +1117,7 @@
                             "autoPopulate": "",
                             "id": "field38",
                             "label": "",
-                            "value": "<hr class=\"dashed\">"
+                            "value": "<hr class=\"dotted\">"
                         }
                     },
                     {
@@ -1173,7 +1173,7 @@
                             "autoPopulate": "",
                             "id": "field38",
                             "label": "",
-                            "value": "<hr class=\"dashed\">"
+                            "value": "<hr class=\"dotted\">"
                         }
                     },
                     {
@@ -1207,7 +1207,7 @@
                             "autoPopulate": "",
                             "id": "field38",
                             "label": "",
-                            "value": "<hr class=\"dashed\">"
+                            "value": "<hr class=\"dotted\">"
                         }
                     },
                     {
@@ -1233,6 +1233,15 @@
                             },
                             "value": "",
                             "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field38",
+                            "label": "",
+                            "value": "<hr class=\"dotted\">"
                         }
                     }
                 ],
