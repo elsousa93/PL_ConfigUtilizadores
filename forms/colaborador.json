@@ -972,6 +972,11 @@
                             "options": [
                                 {
                                     "grouping": "",
+                                    "label": "",
+                                    "value": ""
+                                },
+                                {
+                                    "grouping": "",
                                     "label": "Procurador",
                                     "value": "proc"
                                 },
