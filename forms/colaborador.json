@@ -959,248 +959,245 @@
         },
         {
             "className": "org.joget.apps.form.model.Section",
-            "elements": [
-                {
-                    "className": "org.joget.apps.form.model.Column",
-                    "elements": [
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "controlField": "",
-                                "id": "departamentos_grupo",
-                                "label": "Contratação",
-                                "options": [
-                                    {
-                                        "grouping": "",
-                                        "label": "Contratação",
-                                        "value": "CNT"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Contratação ABN",
-                                        "value": "CNT_ABN"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Contratação BCP",
-                                        "value": "CNT_BCP"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Contratação BIC",
-                                        "value": "CNT_BIC"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Contratação BST",
-                                        "value": "CNT_BST"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Contratação CTT",
-                                        "value": "CNT_CTT"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Contratação GEN",
-                                        "value": "CNT_GEN"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Contratação MTG",
-                                        "value": "CNT_MTG"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Contratação NVB",
-                                        "value": "CNT_NVB"
-                                    }
-                                ],
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "controlField": "",
-                                "id": "departamentos_grupo4",
-                                "label": "Validação",
-                                "options": [
-                                    {
-                                        "grouping": "",
-                                        "label": "Validação",
-                                        "value": "VAL"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Validação BCP",
-                                        "value": "VAL_BCP"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Validação BNI",
-                                        "value": "VAL_BNI"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Validação BST",
-                                        "value": "VAL_BST"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Validação GEN",
-                                        "value": "VAL_GEN"
-                                    }
-                                ],
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        }
-                    ],
-                    "properties": {"width": "49%"}
-                },
-                {
-                    "className": "org.joget.apps.form.model.Column",
-                    "elements": [
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "controlField": "",
-                                "id": "departamentos_grupo2",
-                                "label": "Filtro",
-                                "options": [
-                                    {
-                                        "grouping": "",
-                                        "label": "Filtro",
-                                        "value": "FLT"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Filtro GEN",
-                                        "value": "FLT_GEN"
-                                    }
-                                ],
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "controlField": "",
-                                "id": "departamentos_grupo3",
-                                "label": "Produção",
-                                "options": [
-                                    {
-                                        "grouping": "",
-                                        "label": "Produção",
-                                        "value": "PRD"
-                                    },
-                                    {
-                                        "grouping": "",
-                                        "label": "Produção GEN",
-                                        "value": "PRD_GEN"
-                                    }
-                                ],
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "controlField": "",
-                                "id": "departamentos_grupo5",
-                                "label": "Registos",
-                                "options": [{
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo",
+                            "label": "Contratação",
+                            "options": [
+                                {
                                     "grouping": "",
-                                    "label": "Registos",
-                                    "value": "INT_REG"
-                                }],
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "label": "Contratação",
+                                    "value": "CNT"
                                 },
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação ABN",
+                                    "value": "CNT_ABN"
                                 },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "controlField": "",
-                                "id": "departamentos_grupo6",
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação BCP",
+                                    "value": "CNT_BCP"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação BIC",
+                                    "value": "CNT_BIC"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação BST",
+                                    "value": "CNT_BST"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação CTT",
+                                    "value": "CNT_CTT"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação GEN",
+                                    "value": "CNT_GEN"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação MTG",
+                                    "value": "CNT_MTG"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação NVB",
+                                    "value": "CNT_NVB"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo2",
+                            "label": "Filtro",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Filtro",
+                                    "value": "FLT"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Filtro GEN",
+                                    "value": "FLT_GEN"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo3",
+                            "label": "Produção",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Produção",
+                                    "value": "PRD"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Produção GEN",
+                                    "value": "PRD_GEN"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo4",
+                            "label": "Validação",
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Validação",
+                                    "value": "VAL"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Validação BCP",
+                                    "value": "VAL_BCP"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Validação BNI",
+                                    "value": "VAL_BNI"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Validação BST",
+                                    "value": "VAL_BST"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Validação GEN",
+                                    "value": "VAL_GEN"
+                                }
+                            ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo6",
+                            "label": "Acompanhamento de Outorga",
+                            "options": [{
+                                "grouping": "",
                                 "label": "Acompanhamento de Outorga",
-                                "options": [{
-                                    "grouping": "",
-                                    "label": "Acompanhamento de Outorga",
-                                    "value": "INT_AO"
-                                }],
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "readonly": "",
-                                "readonlyLabel": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "value": "",
-                                "workflowVariable": ""
-                            }
+                                "value": "INT_AO"
+                            }],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
                         }
-                    ],
-                    "properties": {"width": "49%"}
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo5",
+                            "label": "Registos",
+                            "options": [{
+                                "grouping": "",
+                                "label": "Registos",
+                                "value": "INT_REG"
+                            }],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    }
+                ],
+                "properties": {
+                    "customWidth": "",
+                    "horizontal": "",
+                    "label": "",
+                    "width": "100%"
                 }
-            ],
+            }],
             "properties": {
                 "comment": "",
                 "id": "sectionDepartamentos",
