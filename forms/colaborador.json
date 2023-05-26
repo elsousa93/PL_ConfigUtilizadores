@@ -1035,7 +1035,7 @@
                             "autoPopulate": "",
                             "id": "field38",
                             "label": "",
-                            "value": "<script>\n    /* Dashed border */\nhr.dashed {\n border-top: 3px dashed #bbb;\n}\n\n    \n    \n<\/script>\n<hr class=\"dashed\">\n"
+                            "value": "<hr class=\"dashed\">"
                         }
                     },
                     {
