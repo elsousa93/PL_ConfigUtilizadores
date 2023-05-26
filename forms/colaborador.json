@@ -1182,11 +1182,18 @@
                             "controlField": "",
                             "id": "departamentos_grupo5",
                             "label": "Registos",
-                            "options": [{
-                                "grouping": "",
-                                "label": "Registos",
-                                "value": "INT_REG"
-                            }],
+                            "options": [
+                                {
+                                    "grouping": "",
+                                    "label": "Registos",
+                                    "value": "INT_REG"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Registos Qualidade",
+                                    "value": "INT_QUAL_REG"
+                                }
+                            ],
                             "optionsBinder": {
                                 "className": "",
                                 "properties": {}
