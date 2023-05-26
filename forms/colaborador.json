@@ -967,7 +967,7 @@
                         "properties": {
                             "controlField": "",
                             "id": "departamentos_grupo",
-                            "label": "Grupos Departamentos",
+                            "label": "Contratação",
                             "options": [
                                 {
                                     "grouping": "",
@@ -1126,6 +1126,48 @@
                                     "value": "VAL_GEN"
                                 }
                             ],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo5",
+                            "label": "Acompanhamento de Outorga",
+                            "options": [],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamentos_grupo6",
+                            "label": "Registos",
+                            "options": [],
                             "optionsBinder": {
                                 "className": "",
                                 "properties": {}
