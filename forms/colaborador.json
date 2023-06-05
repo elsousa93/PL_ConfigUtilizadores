@@ -1016,6 +1016,11 @@
                                     "grouping": "",
                                     "label": "Contratação NVB",
                                     "value": "CNT_NVB"
+                                },
+                                {
+                                    "grouping": "",
+                                    "label": "Contratação BNI",
+                                    "value": "CNT_BNI"
                                 }
                             ],
                             "optionsBinder": {
