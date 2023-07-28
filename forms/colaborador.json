@@ -939,29 +939,6 @@
                 "className": "org.joget.apps.form.model.Column",
                 "elements": [
                     {
-                        "className": "org.joget.plugin.enterprise.ListGrid",
-                        "properties": {
-                            "abortRelatedRunningProcesses": "false",
-                            "deleteFiles": "false",
-                            "deleteGridData": "false",
-                            "deleteMessage": "Delete row?",
-                            "deleteSubformData": "false",
-                            "disabledAdd": "false",
-                            "disabledDelete": "false",
-                            "enableSorting": "false",
-                            "errorMessage": "Invalid number of rows",
-                            "height": "500",
-                            "id": "field58",
-                            "label": "List Grid",
-                            "pageSize": "20",
-                            "readonly": "False",
-                            "readonlyLabel": "False",
-                            "showRowNumber": "false",
-                            "sortField": "sort",
-                            "width": "900"
-                        }
-                    },
-                    {
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
