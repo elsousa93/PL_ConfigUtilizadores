@@ -1,11 +1,12 @@
 {
     "actions": [],
     "binder": {
-        "className": "org.joget.plugin.enterprise.JogetEntityDatalistBinder",
+        "className": "org.joget.plugin.enterprise.JdbcDataListBinder",
         "properties": {
-            "entity": "Department",
-            "extraCondition": "",
-            "filters": []
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "username",
+            "sql": "select * from dir_department"
         }
     },
     "buttonPosition": "bottomLeft",
