@@ -1507,7 +1507,7 @@
                         "properties": {
                             "cols": "20",
                             "id": "texto_minuta_entidade",
-                            "label": "Texto Minuta",
+                            "label": "Texto Minuta Entidade",
                             "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
@@ -1550,7 +1550,7 @@
                         "properties": {
                             "cols": "20",
                             "id": "texto_minuta",
-                            "label": "Texto Minuta",
+                            "label": "Texto Minuta Procurador",
                             "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
