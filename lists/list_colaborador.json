@@ -259,6 +259,15 @@
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
                 "properties": {"defaultValue": ""}
             }
+        },
+        {
+            "id": "filter_6",
+            "label": "c_departamento",
+            "name": "c_departamento",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
         }
     ],
     "id": "list_colaborador",
