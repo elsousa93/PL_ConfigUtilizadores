@@ -143,14 +143,6 @@
             "sortable": "false",
             "style": "",
             "width": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "id": "column_6",
-            "label": "c_departamentos",
-            "name": "c_departamentos",
-            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
@@ -247,12 +239,15 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_departamentos",
+            "hidden": "",
             "id": "filter_6",
-            "label": "c_departamentos",
+            "label": "Departamentos",
             "name": "c_departamentos",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         }
     ],
