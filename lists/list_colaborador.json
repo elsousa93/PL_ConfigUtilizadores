@@ -261,12 +261,15 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_departamento",
+            "hidden": "",
             "id": "filter_6",
-            "label": "c_departamento",
+            "label": "Departamento",
             "name": "c_departamento",
             "type": {
                 "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "properties": {"defaultValue": ""}
             }
         }
     ],
