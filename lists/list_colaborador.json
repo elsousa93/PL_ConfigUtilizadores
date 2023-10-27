@@ -248,9 +248,8 @@
             "type": {
                 "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
                 "properties": {
-                    "controlField": "",
                     "defaultValue": "",
-                    "multiple": "",
+                    "multiple": "autocomplete",
                     "options": [],
                     "optionsBinder": {
                         "className": "org.joget.apps.form.lib.BeanShellFormBinder",
