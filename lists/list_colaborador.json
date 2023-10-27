@@ -143,6 +143,14 @@
             "sortable": "false",
             "style": "",
             "width": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_6",
+            "label": "c_departamento",
+            "name": "c_departamento",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
