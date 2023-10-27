@@ -246,8 +246,22 @@
             "label": "Departamentos",
             "name": "c_departamentos",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {"defaultValue": ""}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "true",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.BeanShellFormBinder",
+                        "properties": {
+                            "cacheInterval": "",
+                            "script": "import org.joget.apps.app.service.AppUtil;\r\nimport org.joget.apps.form.model.FormRow;\r\nimport org.joget.apps.form.model.FormRowSet;\r\nimport org.joget.apps.form.service.FormUtil;\r\nimport org.joget.apps.app.model.AppDefinition;\r\nimport org.joget.commons.util.LogUtil;\r\nimport org.joget.directory.model.service.ExtDirectoryManager;\r\nimport org.joget.plugin.base.Plugin;\r\nimport org.joget.plugin.base.PluginManager;\r\nimport org.joget.directory.model.Department;\r\nimport java.util.Comparator;\r\n\r\n\r\n \r\npublic FormRowSet load(String[] values) {\r\n    \r\n\r\n    FormRowSet rows = new FormRowSet();\r\n    \r\n    FormRow option = new FormRow();\r\n    option.setProperty(FormUtil.PROPERTY_VALUE, \"\");\r\n    option.setProperty(FormUtil.PROPERTY_LABEL, \"\");\r\n    rows.add(option);\r\n    \r\n    String value = \"\";\r\n    String label = \"\";\r\n        \r\n    AppDefinition appDef = AppUtil.getCurrentAppDefinition();\r\n    \r\n    PluginManager pluginManager = (PluginManager) AppUtil.getApplicationContext().getBean(\"pluginManager\");\r\n    ExtDirectoryManager directoryManager = (ExtDirectoryManager) pluginManager.getBean(\"directoryManager\");\r\n    \r\n    Collection departmentList = directoryManager.getDepartmentsByOrganizationId(null, \"PL\", null, null, null, null);\r\n    \r\n    for(Object d : departmentList) {\r\n        Department departamento = (Department) d;\r\n        FormRow option = new FormRow();\r\n        \r\n        value = departamento.getName();\r\n        description = departamento.getDescription();\r\n        \r\n        if(!value.contains(\"PL_SIS\") && !value.contains(\"SISTEMA\") && !value.contains(\"PL_SEM_DEPART\") && !value.contains(\"PL_INT_PRD_GEN_RPA_CRH\") && !value.contains(\"PL_INT_MOD11_GEN_RPA_CRH\") && !value.contains(\"PL_INT_PRD_HIP\")){\r\n\r\n            option.setProperty(FormUtil.PROPERTY_VALUE, value);\r\n            option.setProperty(FormUtil.PROPERTY_LABEL, description);\r\n            \r\n            rows.add(option);\r\n        }\r\n    }\r\n    \r\n    Collections.sort(rows, new Comparator() {\r\n        public int compare(Object row1, Object row2) {\r\n            String sort1 = ((FormRow) row1).getProperty(FormUtil.PROPERTY_LABEL);\r\n            String sort2 = ((FormRow) row2).getProperty(FormUtil.PROPERTY_LABEL);\r\n            return sort1.compareTo(sort2);\r\n        }\r\n    });\r\n        \r\n    return rows;\r\n}\r\n \r\n//call load method with injected variable\r\nreturn load(values);",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
             }
         }
     ],
