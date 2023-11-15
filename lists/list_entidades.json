@@ -83,7 +83,7 @@
                 "className": "",
                 "properties": {}
             },
-            "alignment": "dataListAlignCenter",
+            "alignment": "dataListAlignRight",
             "datalist_type": "column",
             "exclude_export": "",
             "filterable": true,
@@ -91,12 +91,12 @@
                 "className": "",
                 "properties": {}
             },
-            "headerAlignment": "",
+            "headerAlignment": "dataListAlignCenter",
             "hidden": "false",
             "id": "column_0",
             "label": "Texto Minuta",
             "name": "c_texto_minuta_entidade",
-            "renderHtml": "true",
+            "renderHtml": "false",
             "sortable": "false",
             "style": "",
             "width": ""
