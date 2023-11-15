@@ -96,6 +96,7 @@
             "id": "column_0",
             "label": "Texto Minuta",
             "name": "c_texto_minuta_entidade",
+            "renderHtml": "true",
             "sortable": "false",
             "style": "",
             "width": ""
