@@ -1506,7 +1506,7 @@
                         "className": "org.joget.plugin.enterprise.RichTextEditorField",
                         "properties": {
                             "editor": "",
-                            "height": "",
+                            "height": "1500",
                             "id": "texto_minuta_entidade",
                             "label": "Texto Minuta Entidade",
                             "mode": "",
