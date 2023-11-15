@@ -1,17 +1,172 @@
 {
     "actions": [],
     "binder": {
-        "className": "",
-        "name": "",
-        "properties": {}
+        "className": "org.joget.plugin.enterprise.JdbcDataListBinder",
+        "properties": {
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "id",
+            "sql": "SELECT id, c_nome_completo, c_user_colaborador, c_numero_cc, c_categoria_profissional, c_cedula_estagiario, c_cedula_profissional, c_departamentos, c_texto_minuta\nFROM app_fd_info_colaboradores c \nWHERE c.c_departamentos LIKE '%PL_EXT_PRC%'\n"
+        }
     },
-    "columns": [],
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Cédula Profissional",
+            "name": "c_cedula_profissional",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Nome Completo",
+            "name": "c_nome_completo",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Colaborador",
+            "name": "c_user_colaborador",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Texto Minuta",
+            "name": "c_texto_minuta",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
     "description": "",
-    "filters": [],
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_cedula_profissional",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Cédula Profissional",
+            "name": "c_cedula_profissional",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_nome_completo",
+            "hidden": "",
+            "id": "filter_2",
+            "label": "Nome Completo",
+            "name": "c_nome_completo",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-2621171-fn_c_user_colaborador",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Colaborador",
+            "name": "c_user_colaborador",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "defaultValue": "",
+                    "multiple": "autocomplete",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.plugin.enterprise.UserOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "",
+                            "cacheInterval": "",
+                            "deptId": "",
+                            "emptyLabel": "",
+                            "groupId": "",
+                            "grouping": "",
+                            "optionLabel": "username",
+                            "orgId": "PL",
+                            "useAjax": ""
+                        }
+                    },
+                    "size": ""
+                }
+            }
+        }
+    ],
     "id": "list_procuradores",
     "name": "List - Procuradores",
     "order": "",
     "orderBy": "",
     "pageSize": "0",
-    "rowActions": []
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
 }
