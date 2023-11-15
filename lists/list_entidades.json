@@ -96,9 +96,9 @@
             "id": "column_0",
             "label": "Texto Minuta",
             "name": "c_texto_minuta_entidade",
-            "renderHtml": "false",
+            "renderHtml": "true",
             "sortable": "false",
-            "style": "",
+            "style": "font-size: 10px",
             "width": ""
         }
     ],
