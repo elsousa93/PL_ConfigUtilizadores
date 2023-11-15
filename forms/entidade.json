@@ -127,6 +127,15 @@
                             "value": "",
                             "workflowVariable": ""
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field5",
+                            "label": "",
+                            "value": "<script>\n    $(document).ready(function(){\n        $(\"#submit\").val(\"GUARDAR\");\n        $(\"#cancel\").text(\"CANCELAR\");\n    });\n    \n<\/script>"
+                        }
                     }
                 ],
                 "properties": {"width": "100%"}
