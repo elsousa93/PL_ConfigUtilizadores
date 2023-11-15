@@ -111,21 +111,21 @@
                         }
                     },
                     {
-                        "className": "org.joget.apps.form.lib.TextArea",
+                        "className": "org.joget.plugin.enterprise.RichTextEditorField",
                         "properties": {
-                            "cols": "20",
+                            "editor": "",
+                            "height": "200",
                             "id": "texto_minuta_entidade",
-                            "label": "Texto Minuta",
+                            "label": "Texto Minuta Entidade",
+                            "mode": "",
+                            "permissionType": "",
                             "placeholder": "",
                             "readonly": "",
-                            "readonlyLabel": "",
-                            "rows": "5",
                             "validator": {
                                 "className": "",
                                 "properties": {}
                             },
-                            "value": "",
-                            "workflowVariable": ""
+                            "value": ""
                         }
                     },
                     {
