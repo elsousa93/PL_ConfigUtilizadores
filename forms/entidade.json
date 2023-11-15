@@ -61,7 +61,7 @@
                 "comment": "",
                 "id": "section1",
                 "join": "",
-                "label": "",
+                "label": "Informação Entidade",
                 "loadBinder": {
                     "className": "",
                     "properties": {}
@@ -115,7 +115,7 @@
                         "properties": {
                             "cols": "20",
                             "id": "texto_minuta_entidade",
-                            "label": "Texto Minuta Entidade",
+                            "label": "Texto Minuta",
                             "placeholder": "",
                             "readonly": "",
                             "readonlyLabel": "",
@@ -161,9 +161,25 @@
     "properties": {
         "description": "",
         "id": "entidade",
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "name": "Entidade",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "info_colaboradores"
     }
 }
