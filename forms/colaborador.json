@@ -1392,6 +1392,40 @@
                         "className": "org.joget.apps.form.lib.CustomHTML",
                         "properties": {
                             "autoPopulate": "",
+                            "id": "field60",
+                            "label": "",
+                            "value": "<hr class=\"dotted\">"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamento_grupo14",
+                            "label": "Direção Jurídica",
+                            "options": [{
+                                "grouping": "",
+                                "label": "Direção Jurídica",
+                                "value": "PL_INT_DJ"
+                            }],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
                             "id": "field38",
                             "label": "",
                             "value": "<hr class=\"dotted\">"
