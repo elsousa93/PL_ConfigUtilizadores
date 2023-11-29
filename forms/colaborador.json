@@ -1439,7 +1439,7 @@
                             "label": "Pós-Contratação",
                             "options": [{
                                 "grouping": "",
-                                "label": "Direção Jurídica",
+                                "label": "Pós-contratação",
                                 "value": "PL_INT_PCNT"
                             }],
                             "optionsBinder": {
