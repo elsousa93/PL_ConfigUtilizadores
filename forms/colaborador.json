@@ -1426,6 +1426,40 @@
                         "className": "org.joget.apps.form.lib.CustomHTML",
                         "properties": {
                             "autoPopulate": "",
+                            "id": "field63",
+                            "label": "",
+                            "value": "<hr class=\"dotted\">"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "controlField": "",
+                            "id": "departamento_grupo15",
+                            "label": "Pós-Contratação",
+                            "options": [{
+                                "grouping": "",
+                                "label": "Direção Jurídica",
+                                "value": "PL_INT_PCNT"
+                            }],
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "readonly": "",
+                            "readonlyLabel": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "value": "",
+                            "workflowVariable": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
                             "id": "field38",
                             "label": "",
                             "value": "<hr class=\"dotted\">"
