@@ -1401,7 +1401,7 @@
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
-                            "id": "departamento_grupo14",
+                            "id": "departamentos_grupo14",
                             "label": "Direção Jurídica",
                             "options": [{
                                 "grouping": "",
@@ -1435,7 +1435,7 @@
                         "className": "org.joget.apps.form.lib.CheckBox",
                         "properties": {
                             "controlField": "",
-                            "id": "departamento_grupo15",
+                            "id": "departamentos_grupo15",
                             "label": "Pós-Contratação",
                             "options": [{
                                 "grouping": "",
