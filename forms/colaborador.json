@@ -1406,7 +1406,7 @@
                             "options": [{
                                 "grouping": "",
                                 "label": "Direção Jurídica",
-                                "value": "PL_INT_DJ"
+                                "value": "INT_DJ"
                             }],
                             "optionsBinder": {
                                 "className": "",
